@@ -51,6 +51,7 @@ DatabaseConnection.java, StudentDAO.java methods for CRUD, AdminDAO.java methods
 4. Run Main class.
 5. Use interactive console to register students and manage admissions.
 9. Sample Console Output
+    
 ===== College Admission Management System =====
 1. Student Portal
 2. Admin Portal
