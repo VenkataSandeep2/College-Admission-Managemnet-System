@@ -52,11 +52,171 @@ DatabaseConnection.java, StudentDAO.java methods for CRUD, AdminDAO.java methods
 5. Use interactive console to register students and manage admissions.
 9. Sample Console Output
     
+
+D:\PROJECTS\PERSONAL>cd clg management
+
+D:\PROJECTS\PERSONAL\clg management> java -cp "lib/mysql-connector-j-9.0.0/mysql-connector-j-9.0.0.jar;src" Main
+
 ===== College Admission Management System =====
 1. Student Portal
 2. Admin Portal
 3. Exit
 Enter your choice: 1
+
+===== Student Menu =====
+1. Apply for Admission
+2. Check Admission Status
+3. Exit
+Enter your choice: 1
+
+Enter your name: Sandeep
+Enter your email: sandeep@gmail.com
+Enter your marks: 752
+Enter course preference: CSE
+? Application submitted successfully!
+
+===== Student Menu =====
+1. Apply for Admission
+2. Check Admission Status
+3. Exit
+Enter your choice: 2
+
+Enter your email: sandeep@gmail.com
+Name: Sandeep
+Email: sandeep@gmail.com
+Marks: 752.0
+Course Preference: CSE
+Status: Pending
+
+===== Student Menu =====
+1. Apply for Admission
+2. Check Admission Status
+3. Exit
+Enter your choice: 3
+Returning to main menu...
+
+===== College Admission Management System =====
+1. Student Portal
+2. Admin Portal
+3. Exit
+Enter your choice: 2
+
+===== Admin Menu =====
+1. View All Students
+2. Approve/Reject Admission
+3. Delete Student Record
+4. Exit
+Enter your choice: 2
+Enter Student ID: 1
+Enter new status (Approved/Rejected): A
+? Update failed!
+
+===== Admin Menu =====
+1. View All Students
+2. Approve/Reject Admission
+3. Delete Student Record
+4. Exit
+Enter your choice: 1
+---- Student Details ----
+Student ID: 4
+Name: 102
+Email: san@gnail.com
+Marks: 950.0
+Course Preference: computer science
+Status: Pending
+--------------------------
+---- Student Details ----
+Student ID: 5
+Name: sanjay
+Email: sanjay@gmail.com
+Marks: 950.0
+Course Preference: civil
+Status: R
+--------------------------
+---- Student Details ----
+Student ID: 6
+Name: san
+Email: san@gmail.com
+Marks: 525.0
+Course Preference: mechnical
+Status: Pending
+--------------------------
+---- Student Details ----
+Student ID: 7
+Name: ram
+Email: ram@gmail.com
+Marks: 852.0
+Course Preference: artificial intelligence
+Status: Pending
+--------------------------
+---- Student Details ----
+Student ID: 8
+Name:
+Email: lm,m..
+Marks: 254.0
+Course Preference: ,klnkj
+Status: A
+--------------------------
+---- Student Details ----
+Student ID: 9
+Name: Sandeep
+Email: sandeep@gmail.com
+Marks: 752.0
+Course Preference: CSE
+Status: Pending
+--------------------------
+
+===== Admin Menu =====
+1. View All Students
+2. Approve/Reject Admission
+3. Delete Student Record
+4. Exit
+Enter your choice: 2
+Enter Student ID: 9
+Enter new status (Approved/Rejected): A
+? Status updated successfully!
+
+===== Admin Menu =====
+1. View All Students
+2. Approve/Reject Admission
+3. Delete Student Record
+4. Exit
+Enter your choice: 3
+Enter Student ID to delete: 1
+? Delete failed!
+
+===== Admin Menu =====
+1. View All Students
+2. Approve/Reject Admission
+3. Delete Student Record
+4. Exit
+Enter your choice: 4
+Approved
+
+===== College Admission Management System =====
+1. Student Portal
+2. Admin Portal
+3. Exit
+Enter your choice: 1
+
+===== Student Menu =====
+1. Apply for Admission
+2. Check Admission Status
+3. Exit
+Enter your choice: 2
+
+Enter your email: sandeep@gmail.com
+Name: Sandeep
+Email: sandeep@gmail.com
+Marks: 752.0
+Course Preference: CSE
+Status: A
+
+===== Student Menu =====
+1. Apply for Admission
+2. Check Admission Status
+3. Exit
+Enter your choice:
 ...Student registered successfully!
 10. Testing & Results
 The system was tested by inserting multiple student records, validating unique email constraints, updating admission status, and ensuring database CRUD worked properly.
